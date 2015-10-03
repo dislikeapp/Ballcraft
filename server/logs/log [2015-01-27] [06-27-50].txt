@@ -1,0 +1,8 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.

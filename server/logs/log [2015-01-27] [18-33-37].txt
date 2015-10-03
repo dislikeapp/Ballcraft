@@ -1,0 +1,51 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] INST: [object Object]
+[[93mWORLD[0m] INST emit: [object Object]
+[[93mWORLD[0m] INST emit 2: [object Object]
+[[93mWORLD[0m] INST emit: [object Object]
+[[93mWORLD[0m] INST emit 2: [object Object]
+[[93mWORLD[0m] INST: [object Object]
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] INST: [object Object]
+[[93mWORLD[0m] INST emit: [object Object]
+[[93mWORLD[0m] INST emit 2: [object Object]
+[[93mWORLD[0m] INST emit: [object Object]
+[[93mWORLD[0m] INST emit 2: [object Object]
+[[93mWORLD[0m] INST: [object Object]
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] INST emit: [object Object]
+[[93mWORLD[0m] INST emit 2: [object Object]
+[[93mWORLD[0m] INST 1: [object Object]
+Exception: TypeError: Cannot read property 'clients' of undefined
+Stack: TypeError: Cannot read property 'clients' of undefined
+    at WorldActivity.emitToInstance (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:74:23)
+    at WorldActivity.postInstanceMessage (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:95:8)
+    at WorldActivity.onDestroy (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:55:8)
+    at WorldActivity.Activity.finish (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:16:8)
+    at LobbyActivity.Activity.finish (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:14:28)
+    at LoginActivity.Activity.finish (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:14:28)
+    at Socket.eval (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6), <anonymous>:52:25)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at Socket.onDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\socket.js:153:10)
+    at SocketNamespace.handleDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:229:46)

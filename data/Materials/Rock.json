@@ -1,0 +1,27 @@
+
+{
+	"material": {
+		"passes": [
+			{
+				"shader": "Terrain",
+				"blendMode": {},
+				"textures": {
+					"0": "Rock_diff",
+					"1": "Rock_norm",
+					"2": "Rock_spec",
+					"3": "City_env"
+				},
+				"uniforms": {
+					"normMapIntensity":	0.5,
+					"specMapIntensity":	1.0,
+					"diffuse":			[1.0, 1.0, 1.0],
+					"specular":			[0.75, 0.75, 0.75],
+					"shininess":		8.0,
+					"emission":			0.0,
+					"diffusivity":		1.0,
+					"reflectivity":		0.0
+				}
+			}
+		]
+	}
+}

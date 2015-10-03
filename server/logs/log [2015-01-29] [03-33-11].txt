@@ -1,0 +1,26 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Database loaded 5 accounts.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+Exception: TypeError: Property 'log' of object #<Object> is not a function
+Exception: TypeError: Property 'log' of object #<Object> is not a function
+Stack: TypeError: Property 'log' of object #<Object> is not a function
+    at Socket.eval (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6), <anonymous>:54:12)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at Socket.onDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\socket.js:153:10)
+    at SocketNamespace.handleDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:229:46)
+    at Manager.onClientDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:501:29)
+    at WebSocket.Transport.end (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:467:20)
+    at WebSocket.Transport.onForcedDisconnect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:208:10)
+    at WebSocket.Transport.onMessage (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:360:17)
+    at Parser.<anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transports\websocket\hybi-16.js:39:10)
+    at Parser.EventEmitter.emit (events.js:95:17)

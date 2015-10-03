@@ -1,0 +1,36 @@
+
+{
+	"shader": {
+		"vert": "Sources/Terrain.vert",
+		"frag": "Sources/Terrain.frag",
+		"attributes": {
+			"vertPosition":	"POSITION",
+			"vertNormal":	"NORMAL",
+			"vertTexCoord":	"TEXCOORD"
+		},
+		"uniforms": {
+			"mvpMatrix":	"MVP_MATRIX",
+			"mvMatrix":		"MV_MATRIX",
+			"vMatrix":		"V_MATRIX",
+			"nMatrix":		"N_MATRIX",
+			
+			"diffSampler":		{"INT":		0},
+			"normSampler":		{"INT":		1},
+			"envSampler":		{"INT":		2},
+			
+			"lightPos":			{"VEC3":	[0, 10, 1]},
+			"lightColor":		{"VEC3":	[1, 1, 1]},
+			
+			"atlasSize":		{"VEC2":	[2048, 2048]},
+			"tileCount":		{"VEC2":	[2, 2]},
+			"tilePadding":		{"FLOAT":	0.125},
+			
+			"normMapIntensity":	{"FLOAT":	0.0},
+			"specMapIntensity":	{"FLOAT":	0.0},
+			"shininess":		{"FLOAT":	16.0},
+			"emission":			{"FLOAT":	0.0},
+			"diffusivity":		{"FLOAT":	1.0},
+			"reflectivity":		{"FLOAT":	0.0}
+		}
+	}
+}

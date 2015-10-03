@@ -1,0 +1,83 @@
+
+html
+{
+	padding: 0px;
+	margin: 0px;
+}
+html *
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Helvetica;
+	font-size: 14px;
+	padding: 4px;
+	margin: 0px;
+}
+
+
+
+span
+{
+	display: inline-block;
+}
+pre
+{
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+table
+{
+	border-collapse: collapse;
+	font-family: inherit;
+	font-size: inherit;
+}
+table th
+{
+	padding: 0px;
+	margin: 0px;
+}
+table td
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+span.block
+{
+	background: #BFEFFF;
+	border-radius: 6px;
+	padding: 2px;
+	margin: 4px;
+	vertical-align: text-top;
+}
+span.block table
+{
+	background: #FFFFFF;
+	border-collapse: collapse;
+	border: solid 1px #BFEFFF;
+	border-radius: 6px;
+	width: 100%;
+}
+span.block table th
+{
+	border: solid 1px #BFEFFF;
+	border-radius: 4px;
+	padding: 3px;
+	margin: 0px;
+}
+span.block table td
+{
+	border: solid 1px #BFEFFF;
+	border-radius: 4px;
+	word-break: break-word;
+	padding: 3px;
+	margin: 0px;
+}

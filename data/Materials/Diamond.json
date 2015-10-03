@@ -1,0 +1,26 @@
+
+{
+	"material": {
+		"passes": [
+			{
+				"shader": "Solid",
+				"blendMode": {},
+				"textures": {
+					"0": "Metal_diff",
+					"1": "Metal_norm",
+					"2": "White",
+					"3": "Chrome_env"
+				},
+				"uniforms": {
+					"normMapIntensity":	0.025,
+					"diffuse":			[0.8, 0.9, 1],
+					"specular":			[1, 1, 1],
+					"shininess":		16.0,
+					"emission":			0.25,
+					"diffusivity":		0.75,
+					"reflectivity":		0.75
+				}
+			}
+		]
+	}
+}

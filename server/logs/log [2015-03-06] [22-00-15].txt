@@ -1,0 +1,19 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Created account 5: 'fuckTom'
+[[33mDATA[0m] Created account 6: 'LukeZ'
+[[33mDATA[0m] Created account 7: 'hellogoodbye'
+[[33mDATA[0m] Created account 8: 'StarDanza'
+[[33mDATA[0m] Database loaded 9 accounts.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.

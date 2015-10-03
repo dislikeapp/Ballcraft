@@ -1,0 +1,31 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Database loaded 5 accounts.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+connections property is deprecated. Use getConnections() method
+Exception: TypeError: Cannot set property 'level' of undefined
+Stack: TypeError: Cannot set property 'level' of undefined
+    at Manager.get [as log] (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:176:16)
+    at WebSocket.Transport.handleRequest.req [as log] (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:41:22)
+    at WebSocket.write (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transports\websocket\hybi-16.js:196:9)
+    at WebSocket.Transport.onDispatch (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:222:10)
+    at Socket.dispatch (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\socket.js:230:38)
+    at Socket.packet (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\socket.js:214:10)
+    at Socket.emit (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\socket.js:368:15)
+    at Socket.eval (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6), <anonymous>:103:12)
+    at Socket.EventEmitter.emit [as $emit] (events.js:95:17)
+    at SocketNamespace.handlePacket (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:335:22)

@@ -1,0 +1,779 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Database loaded 3 accounts.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: TestUser
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: TestUser
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-2, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Database saved 4 accounts.
+[[92mLOGIN[0m] New client registered as: TomIsAProstitute
+[[92mLOGIN[0m] Client 0 logged in as: TomIsAProstitute
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (2, 0)
+[[93mWORLD[0m] Client 0 shifted to (3, 0)
+[[93mWORLD[0m] Client 0 shifted to (4, 0)
+[[93mWORLD[0m] Client 0 shifted to (5, 0)
+[[93mWORLD[0m] Client 0 shifted to (6, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: TomIsAProstitute
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user ''1=1&&'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1&&'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1&&'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1&&'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user ''1=1'Guest'. Username not found.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 1)
+[[93mWORLD[0m] Client 0 shifted to (1, 1)
+[[93mWORLD[0m] Client 0 shifted to (2, 1)
+[[93mWORLD[0m] Client 0 shifted to (2, 2)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, -1)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 2 logged in as: Guest
+[[94mLOBBY[0m] Client 2 entered lobby.
+[[93mWORLD[0m] Client 2 entered world.
+[[91mINSTANCE[0m] Client 2 joined instance.
+[[93mWORLD[0m] Client 2 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 shifted to (0, -1)
+[[93mWORLD[0m] Client 0 shifted to (0, -2)
+[[93mWORLD[0m] Client 1 shifted to (0, -2)
+[[93mWORLD[0m] Client 0 shifted to (0, -3)
+[[93mWORLD[0m] Client 1 shifted to (0, -3)
+[[93mWORLD[0m] Client 1 shifted to (0, -4)
+[[93mWORLD[0m] Client 0 shifted to (0, -4)
+[[93mWORLD[0m] Client 1 shifted to (0, -5)
+[[93mWORLD[0m] Client 1 shifted to (0, -6)
+[[93mWORLD[0m] Client 0 shifted to (0, -5)
+[[93mWORLD[0m] Client 1 shifted to (0, -5)
+[[93mWORLD[0m] Client 0 shifted to (0, -6)
+[[93mWORLD[0m] Client 1 shifted to (0, -4)
+[[93mWORLD[0m] Client 1 shifted to (0, -3)
+[[93mWORLD[0m] Client 1 shifted to (0, -2)
+[[93mWORLD[0m] Client 1 shifted to (0, -3)
+[[93mWORLD[0m] Client 1 shifted to (-1, -3)
+[[93mWORLD[0m] Client 1 shifted to (-1, -4)
+[[93mWORLD[0m] Client 1 shifted to (-1, -3)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 1 shifted to (-2, -3)
+[[93mWORLD[0m] Client 1 shifted to (-2, -2)
+[[93mWORLD[0m] Client 1 shifted to (-3, -2)
+[[93mWORLD[0m] Client 1 shifted to (-4, -2)
+[[93mWORLD[0m] Client 1 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-5, -3)
+[[93mWORLD[0m] Client 1 shifted to (-6, -3)
+[[93mWORLD[0m] Client 1 shifted to (-7, -3)
+[[93mWORLD[0m] Client 1 shifted to (-8, -3)
+[[93mWORLD[0m] Client 1 shifted to (-9, -3)
+[[93mWORLD[0m] Client 1 shifted to (-9, -4)
+[[93mWORLD[0m] Client 1 shifted to (-10, -4)
+[[93mWORLD[0m] Client 1 shifted to (-11, -4)
+[[93mWORLD[0m] Client 1 shifted to (-12, -4)
+[[93mWORLD[0m] Client 1 shifted to (-12, -3)
+[[93mWORLD[0m] Client 1 shifted to (-11, -3)
+[[93mWORLD[0m] Client 2 left world.
+[[91mINSTANCE[0m] Client 2 left instance.
+[[94mLOBBY[0m] Client 2 left lobby.
+[[92mLOGIN[0m] Client 2 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 1 shifted to (-10, -3)
+[[93mWORLD[0m] Client 1 shifted to (-10, -2)
+[[93mWORLD[0m] Client 1 shifted to (-9, -2)
+[[93mWORLD[0m] Client 1 shifted to (-8, -2)
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 1 shifted to (-8, -1)
+[[93mWORLD[0m] Client 1 shifted to (-7, -1)
+[[93mWORLD[0m] Client 1 shifted to (-6, -1)
+[[93mWORLD[0m] Client 1 shifted to (-6, 0)
+[[93mWORLD[0m] Client 1 shifted to (-5, 0)
+[[93mWORLD[0m] Client 1 shifted to (-5, 1)
+[[92mLOGIN[0m] Failed login for user 'Sego'. Username not found.
+[[93mWORLD[0m] Client 1 shifted to (-4, 1)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[92mLOGIN[0m] Failed login for user 'Sego'. Username not found.
+[[92mLOGIN[0m] Failed login for user 'Sego'. Username not found.
+[[92mLOGIN[0m] Failed login for user 'Sego'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 1)
+[[93mWORLD[0m] Client 0 shifted to (1, 1)
+[[93mWORLD[0m] Client 0 shifted to (1, 2)
+[[93mWORLD[0m] Client 0 shifted to (2, 2)
+[[93mWORLD[0m] Client 0 shifted to (2, 3)
+[[93mWORLD[0m] Client 0 shifted to (3, 3)
+[[93mWORLD[0m] Client 0 shifted to (3, 4)
+[[93mWORLD[0m] Client 0 shifted to (4, 4)
+[[93mWORLD[0m] Client 0 shifted to (4, 5)
+[[93mWORLD[0m] Client 0 shifted to (5, 5)
+[[93mWORLD[0m] Client 0 shifted to (5, 6)
+[[93mWORLD[0m] Client 0 shifted to (6, 6)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -2)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'tom'. Username not found.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (2, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 shifted to (0, -1)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (2, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, -1)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (2, 0)
+[[93mWORLD[0m] Client 0 shifted to (3, 0)
+[[93mWORLD[0m] Client 0 shifted to (4, 0)
+[[93mWORLD[0m] Client 0 shifted to (5, 0)
+[[93mWORLD[0m] Client 0 shifted to (6, 0)
+[[93mWORLD[0m] Client 0 shifted to (7, 0)
+[[93mWORLD[0m] Client 0 shifted to (8, 0)
+[[93mWORLD[0m] Client 0 shifted to (9, 0)
+[[93mWORLD[0m] Client 0 shifted to (10, 0)
+[[93mWORLD[0m] Client 0 shifted to (11, 0)
+[[93mWORLD[0m] Client 0 shifted to (12, 0)
+[[93mWORLD[0m] Client 0 shifted to (11, 0)
+[[93mWORLD[0m] Client 0 shifted to (10, 0)
+[[93mWORLD[0m] Client 0 shifted to (9, 0)
+[[93mWORLD[0m] Client 0 shifted to (8, 0)
+[[93mWORLD[0m] Client 0 shifted to (7, 0)
+[[93mWORLD[0m] Client 0 shifted to (6, 0)
+[[93mWORLD[0m] Client 0 shifted to (5, 0)
+[[93mWORLD[0m] Client 0 shifted to (4, 0)
+[[93mWORLD[0m] Client 0 shifted to (3, 0)
+[[93mWORLD[0m] Client 0 shifted to (2, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-2, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 1 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 1 shifted to (-1, 0)
+[[93mWORLD[0m] Client 1 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -2)
+[[93mWORLD[0m] Client 0 shifted to (-3, -2)
+[[93mWORLD[0m] Client 1 shifted to (-2, -1)
+[[93mWORLD[0m] Client 1 shifted to (-3, -1)
+[[93mWORLD[0m] Client 1 shifted to (-3, -2)
+[[93mWORLD[0m] Client 1 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-4, -4)
+[[93mWORLD[0m] Client 0 shifted to (-4, -4)
+[[93mWORLD[0m] Client 1 shifted to (-4, -3)
+[[93mWORLD[0m] Client 1 shifted to (-3, -3)
+[[93mWORLD[0m] Client 1 shifted to (-3, -2)
+[[93mWORLD[0m] Client 0 shifted to (-4, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -2)
+[[93mWORLD[0m] Client 0 shifted to (-2, -2)
+[[93mWORLD[0m] Client 0 shifted to (-1, -2)
+[[93mWORLD[0m] Client 0 shifted to (-1, -3)
+[[93mWORLD[0m] Client 0 shifted to (-2, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-4, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-3, -2)
+[[93mWORLD[0m] Client 0 shifted to (-4, -2)
+[[93mWORLD[0m] Client 1 shifted to (-3, -1)
+[[93mWORLD[0m] Client 0 shifted to (-3, -2)
+[[93mWORLD[0m] Client 0 shifted to (-3, -1)
+[[93mWORLD[0m] Client 1 shifted to (-3, -2)
+[[93mWORLD[0m] Client 1 shifted to (-3, -3)
+[[93mWORLD[0m] Client 1 shifted to (-3, -4)
+[[93mWORLD[0m] Client 1 shifted to (-3, -3)
+[[93mWORLD[0m] Client 1 shifted to (-2, -3)
+[[93mWORLD[0m] Client 1 shifted to (-2, -2)
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -1)
+[[93mWORLD[0m] Client 0 shifted to (-2, -2)
+[[93mWORLD[0m] Client 0 shifted to (-3, -2)
+[[93mWORLD[0m] Client 0 shifted to (-3, -3)
+[[93mWORLD[0m] Client 0 shifted to (-4, -3)
+[[93mWORLD[0m] Client 0 shifted to (-4, -4)
+[[93mWORLD[0m] Client 0 shifted to (-5, -4)
+[[93mWORLD[0m] Client 0 shifted to (-5, -5)
+[[93mWORLD[0m] Client 0 shifted to (-5, -6)
+[[93mWORLD[0m] Client 0 shifted to (-4, -6)
+[[93mWORLD[0m] Client 0 shifted to (-3, -6)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 shifted to (-2, -6)
+[[93mWORLD[0m] Client 0 shifted to (-2, -5)
+[[93mWORLD[0m] Client 0 shifted to (-3, -5)
+[[93mWORLD[0m] Client 0 shifted to (-4, -5)
+[[93mWORLD[0m] Client 0 shifted to (-5, -5)
+[[93mWORLD[0m] Client 0 shifted to (-6, -5)
+[[93mWORLD[0m] Client 0 shifted to (-6, -4)
+[[93mWORLD[0m] Client 0 shifted to (-6, -3)
+[[93mWORLD[0m] Client 0 shifted to (-6, -2)
+[[93mWORLD[0m] Client 0 shifted to (-5, -2)
+[[93mWORLD[0m] Client 0 shifted to (-5, -1)
+[[93mWORLD[0m] Client 0 shifted to (-5, 0)
+[[93mWORLD[0m] Client 0 shifted to (-4, 0)
+[[93mWORLD[0m] Client 0 shifted to (-3, 0)
+[[93mWORLD[0m] Client 0 shifted to (-2, 0)
+[[93mWORLD[0m] Client 0 shifted to (-1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 shifted to (0, 1)
+[[93mWORLD[0m] Client 1 shifted to (1, 1)
+[[93mWORLD[0m] Client 1 shifted to (2, 1)
+[[93mWORLD[0m] Client 1 shifted to (3, 1)
+[[93mWORLD[0m] Client 1 shifted to (4, 1)
+[[93mWORLD[0m] Client 1 shifted to (5, 1)
+[[93mWORLD[0m] Client 1 shifted to (6, 1)
+[[93mWORLD[0m] Client 1 shifted to (7, 1)
+[[93mWORLD[0m] Client 1 shifted to (8, 1)
+[[93mWORLD[0m] Client 1 shifted to (9, 1)
+[[93mWORLD[0m] Client 1 shifted to (10, 1)
+[[93mWORLD[0m] Client 1 shifted to (11, 1)
+[[93mWORLD[0m] Client 1 shifted to (10, 1)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Database saved 5 accounts.
+[[92mLOGIN[0m] New client registered as: TomIsADuck
+[[92mLOGIN[0m] Client 1 logged in as: TomIsADuck
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: TomIsADuck
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 shifted to (1, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, 0)
+[[93mWORLD[0m] Client 0 shifted to (1, -1)
+[[93mWORLD[0m] Client 0 shifted to (2, -1)
+[[93mWORLD[0m] Client 0 shifted to (2, -2)
+[[93mWORLD[0m] Client 0 shifted to (3, -2)
+[[93mWORLD[0m] Client 0 shifted to (3, -3)
+[[93mWORLD[0m] Client 0 shifted to (4, -3)
+[[93mWORLD[0m] Client 0 shifted to (4, -4)
+[[93mWORLD[0m] Client 0 shifted to (5, -4)
+[[93mWORLD[0m] Client 0 shifted to (5, -5)
+[[93mWORLD[0m] Client 0 shifted to (6, -5)
+[[93mWORLD[0m] Client 0 shifted to (6, -6)
+[[93mWORLD[0m] Client 0 shifted to (7, -6)
+[[93mWORLD[0m] Client 0 shifted to (7, -7)
+[[93mWORLD[0m] Client 0 shifted to (8, -7)
+[[93mWORLD[0m] Client 0 shifted to (8, -8)
+[[93mWORLD[0m] Client 0 shifted to (9, -9)
+[[93mWORLD[0m] Client 0 shifted to (10, -9)
+[[93mWORLD[0m] Client 0 shifted to (10, -10)
+[[93mWORLD[0m] Client 0 shifted to (11, -10)
+[[93mWORLD[0m] Client 0 shifted to (11, -11)
+[[93mWORLD[0m] Client 0 shifted to (12, -11)
+[[93mWORLD[0m] Client 0 shifted to (12, -12)
+[[93mWORLD[0m] Client 0 shifted to (13, -12)
+[[93mWORLD[0m] Client 0 shifted to (13, -13)
+[[93mWORLD[0m] Client 0 shifted to (14, -13)
+[[93mWORLD[0m] Client 0 shifted to (14, -14)
+[[93mWORLD[0m] Client 0 shifted to (15, -14)
+[[93mWORLD[0m] Client 0 shifted to (15, -15)
+[[93mWORLD[0m] Client 0 shifted to (16, -15)
+[[93mWORLD[0m] Client 0 shifted to (16, -16)
+[[93mWORLD[0m] Client 0 shifted to (17, -16)
+[[93mWORLD[0m] Client 0 shifted to (17, -17)
+[[93mWORLD[0m] Client 0 shifted to (18, -17)
+[[93mWORLD[0m] Client 0 shifted to (19, -17)
+[[93mWORLD[0m] Client 0 shifted to (19, -16)
+[[93mWORLD[0m] Client 0 shifted to (19, -15)
+[[93mWORLD[0m] Client 0 shifted to (19, -14)
+[[93mWORLD[0m] Client 0 shifted to (20, -14)
+[[93mWORLD[0m] Client 0 shifted to (20, -13)
+[[93mWORLD[0m] Client 0 shifted to (20, -12)
+[[93mWORLD[0m] Client 0 shifted to (21, -12)
+[[93mWORLD[0m] Client 0 shifted to (21, -11)
+[[93mWORLD[0m] Client 0 shifted to (21, -10)
+[[93mWORLD[0m] Client 0 shifted to (22, -10)
+[[93mWORLD[0m] Client 0 shifted to (22, -9)
+[[93mWORLD[0m] Client 0 shifted to (22, -10)
+[[93mWORLD[0m] Client 0 shifted to (23, -10)
+[[93mWORLD[0m] Client 0 shifted to (23, -11)
+[[93mWORLD[0m] Client 0 shifted to (23, -10)
+[[93mWORLD[0m] Client 0 shifted to (22, -10)
+[[93mWORLD[0m] Client 0 shifted to (22, -9)
+[[93mWORLD[0m] Client 0 shifted to (21, -9)
+[[93mWORLD[0m] Client 0 shifted to (21, -8)
+[[93mWORLD[0m] Client 0 shifted to (21, -7)
+[[93mWORLD[0m] Client 0 shifted to (20, -7)
+[[93mWORLD[0m] Client 0 shifted to (20, -6)
+[[93mWORLD[0m] Client 0 shifted to (19, -6)
+[[93mWORLD[0m] Client 0 shifted to (19, -5)
+[[93mWORLD[0m] Client 0 shifted to (18, -5)
+[[93mWORLD[0m] Client 0 shifted to (18, -4)
+[[93mWORLD[0m] Client 0 shifted to (18, -3)
+[[93mWORLD[0m] Client 0 shifted to (17, -3)
+[[93mWORLD[0m] Client 0 shifted to (17, -2)
+[[93mWORLD[0m] Client 0 shifted to (16, -2)
+[[93mWORLD[0m] Client 0 shifted to (16, -1)
+[[93mWORLD[0m] Client 0 shifted to (15, -1)
+[[93mWORLD[0m] Client 0 shifted to (15, 0)
+[[93mWORLD[0m] Client 0 shifted to (15, 1)
+[[93mWORLD[0m] Client 0 shifted to (16, 1)
+[[93mWORLD[0m] Client 0 shifted to (16, 2)
+[[93mWORLD[0m] Client 0 shifted to (17, 2)
+[[93mWORLD[0m] Client 0 shifted to (17, 3)
+[[93mWORLD[0m] Client 0 shifted to (18, 3)
+[[93mWORLD[0m] Client 0 shifted to (18, 2)
+[[93mWORLD[0m] Client 0 shifted to (17, 2)
+[[93mWORLD[0m] Client 0 shifted to (16, 2)
+[[93mWORLD[0m] Client 0 shifted to (16, 3)
+[[93mWORLD[0m] Client 0 shifted to (17, 3)
+[[96mSERVER[0m] Client connected.

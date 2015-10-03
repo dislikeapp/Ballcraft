@@ -1,0 +1,27 @@
+
+{
+	"material": {
+		"passes": [
+			{
+				"shader": "Terrain",
+				"blendMode": {},
+				"textures": {
+					"0": "Grass_diff",
+					"1": "Grass_norm",
+					"2": "Grass_spec",
+					"3": "City_env"
+				},
+				"uniforms": {
+					"normMapIntensity":	0.4,
+					"specMapIntensity":	0.9,
+					"diffuse":			[1.0, 1.0, 1.0],
+					"specular":			[1.0, 0.875, 0.75],
+					"shininess":		16.0,
+					"emission":			0.0,
+					"diffusivity":		1.25,
+					"reflectivity":		0.0
+				}
+			}
+		]
+	}
+}

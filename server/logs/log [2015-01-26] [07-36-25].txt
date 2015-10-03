@@ -1,0 +1,185 @@
+   [36minfo  -[39m socket.io started
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'J'. Username not found.
+[[92mLOGIN[0m] Failed login for user 'J'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guestw'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guestw'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Failed login for user 'Guest2'. Username not found.
+[[96mSERVER[0m] Client connected.

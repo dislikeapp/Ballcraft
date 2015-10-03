@@ -1,0 +1,10 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+Exception: SyntaxError: Unexpected token a
+Stack: SyntaxError: Unexpected token a
+    at Object.parse (native)
+    at eval (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:37:6), <anonymous>:38:19)
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)

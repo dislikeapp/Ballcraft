@@ -1,0 +1,25 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Database loaded 5 accounts.
+[[96mSERVER[0m] Client connected.
+Exception: TypeError: Property 'log' of object #<Object> is not a function
+Exception: TypeError: Property 'log' of object #<Object> is not a function
+Stack: TypeError: Property 'log' of object #<Object> is not a function
+    at SocketNamespace.eval (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6), <anonymous>:44:11)
+    at SocketNamespace.EventEmitter.emit [as $emit] (events.js:117:20)
+    at connect (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:292:10)
+    at D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:308:13
+    at SocketNamespace.authorize (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:252:5)
+    at SocketNamespace.handlePacket (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:302:14)
+    at Manager.handleClient (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:698:32)
+    at Manager.handleUpgrade (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:618:8)
+    at Server.<anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:123:10)
+    at Server.EventEmitter.emit (events.js:106:17)

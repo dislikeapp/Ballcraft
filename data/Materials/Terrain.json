@@ -1,0 +1,31 @@
+
+{
+	"material": {
+		"passes": [
+			{
+				"shader": "Terrain",
+				"blendMode": {},
+				"textures": {
+					"0": "Terrain_diff_spec",
+					"1": "Terrain_norm",
+					"2": "Black"
+				},
+				"uniforms": {
+					"lightPos":			[0, 10, 1],
+					"lightColor":		[1, 1, 1],
+					
+					"atlasSize":		[2048, 2048],
+					"tileCount":		[2, 2],
+					"tilePadding":		0.0625,
+					
+					"normMapIntensity":	0.75,
+					"specMapIntensity":	1.0,
+					"shininess":		32.0,
+					"emission":			0.125,
+					"diffusivity":		1.125,
+					"reflectivity":		0.0
+				}
+			}
+		]
+	}
+}

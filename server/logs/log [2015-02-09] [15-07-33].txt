@@ -1,0 +1,496 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[33mDATA[0m] Created account 2: 'TestUser'
+[[33mDATA[0m] Created account 3: 'TomIsAProstitute'
+[[33mDATA[0m] Created account 4: 'TomIsADuck'
+[[33mDATA[0m] Created account 5: 'fuckTom'
+[[33mDATA[0m] Created account 6: 'LukeZ'
+[[33mDATA[0m] Created account 7: 'hellogoodbye'
+[[33mDATA[0m] Database loaded 8 accounts.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Guest
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[92mLOGIN[0m] Client 2 logged in as: Guest
+[[94mLOBBY[0m] Client 2 entered lobby.
+[[93mWORLD[0m] Client 2 entered world.
+[[91mINSTANCE[0m] Client 2 joined instance.
+[[92mLOGIN[0m] Client 3 logged in as: Guest
+[[94mLOBBY[0m] Client 3 entered lobby.
+[[93mWORLD[0m] Client 3 entered world.
+[[91mINSTANCE[0m] Client 3 joined instance.
+[[92mLOGIN[0m] Client 4 logged in as: Guest
+[[94mLOBBY[0m] Client 4 entered lobby.
+[[93mWORLD[0m] Client 4 entered world.
+[[91mINSTANCE[0m] Client 4 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 3 left world.
+[[91mINSTANCE[0m] Client 3 left instance.
+[[94mLOBBY[0m] Client 3 left lobby.
+[[92mLOGIN[0m] Client 3 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 1 left world.
+[[91mINSTANCE[0m] Client 1 left instance.
+[[94mLOBBY[0m] Client 1 left lobby.
+[[92mLOGIN[0m] Client 1 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 2 left world.
+[[91mINSTANCE[0m] Client 2 left instance.
+[[94mLOBBY[0m] Client 2 left lobby.
+[[92mLOGIN[0m] Client 2 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Tom
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 4 left world.
+[[91mINSTANCE[0m] Client 4 left instance.
+[[94mLOBBY[0m] Client 4 left lobby.
+[[92mLOGIN[0m] Client 4 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Tom
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 left world.
+[[91mINSTANCE[0m] Client 0 left instance.
+[[94mLOBBY[0m] Client 0 left lobby.
+[[92mLOGIN[0m] Client 0 logged out of: Guest
+[[96mSERVER[0m] Client disconnected.

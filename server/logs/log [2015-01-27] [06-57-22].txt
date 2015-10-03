@@ -1,0 +1,24 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+Exception: ReferenceError: postShiftScene is not defined
+Exception: ReferenceError: postShiftScene is not defined
+Stack: ReferenceError: postShiftScene is not defined
+    at WorldActivity.connect (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:114:31)
+    at WorldActivity.onCreate (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:22:8)
+    at LobbyActivity.Activity.startActivity (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:32:12)
+    at Socket.eval (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:44:11)
+    at Socket.EventEmitter.emit [as $emit] (events.js:92:17)
+    at SocketNamespace.handlePacket (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:335:22)
+    at Manager.onClientMessage (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:488:38)
+    at WebSocket.Transport.onMessage (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:387:20)
+    at Parser.<anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transports\websocket\hybi-16.js:39:10)
+    at Parser.EventEmitter.emit (events.js:95:17)

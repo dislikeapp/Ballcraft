@@ -1,0 +1,33 @@
+   [36minfo  -[39m socket.io started
+[[33mDATA[0m] Database created.
+[[33mDATA[0m] Created account 0: 'Guest'
+[[33mDATA[0m] Created account 1: 'Tom'
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 0 logged in as: Guest
+[[94mLOBBY[0m] Client 0 entered lobby.
+[[93mWORLD[0m] Client 0 entered world.
+[[91mINSTANCE[0m] Client 0 joined instance.
+[[93mWORLD[0m] Client 0 shifted to (0, 0)
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] Client 1 logged in as: Tom
+[[94mLOBBY[0m] Client 1 entered lobby.
+[[93mWORLD[0m] Client 1 entered world.
+[[91mINSTANCE[0m] Client 1 joined instance.
+[[93mWORLD[0m] Client 1 shifted to (0, 0)
+[[93mWORLD[0m] Client 1 left world.
+Exception: TypeError: Cannot call method 'getPos' of undefined
+Stack: TypeError: Cannot call method 'getPos' of undefined
+    at WorldActivity.postClientLeave (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:103:24)
+    at WorldActivity.onDestroy (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:42:8)
+    at WorldActivity.Activity.finish (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:16:8)
+    at LobbyActivity.Activity.finishChildActivities (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:23:28)
+    at Socket.eval (eval at <anonymous> (eval at <anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\main.js:43:6)), <anonymous>:48:10)
+    at Socket.EventEmitter.emit [as $emit] (events.js:92:17)
+    at SocketNamespace.handlePacket (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\namespace.js:335:22)
+    at Manager.onClientMessage (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\manager.js:488:38)
+    at WebSocket.Transport.onMessage (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transport.js:387:20)
+    at Parser.<anonymous> (D:\AppServ\www\main\projects\OmniEngine-JS\demos\ball\server\node_modules\socket.io\lib\transports\websocket\hybi-16.js:39:10)

@@ -1,0 +1,15 @@
+
+{
+	"material": {
+		"passes": [
+			{
+				"shader": "Atmosphere",
+				"blendMode": {},
+				"uniforms": {
+					"sunDirection":		[0, 0, 1],
+					"moonDirection":	[1.0, 0.5, 1]
+				}
+			}
+		]
+	}
+}

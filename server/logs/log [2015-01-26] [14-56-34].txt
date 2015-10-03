@@ -1,0 +1,12 @@
+   [36minfo  -[39m socket.io started
+[[96mSERVER[0m] Server started.
+[[91mINSTANCE[0m] Instance created.
+[[91mINSTANCE[0m] Instance started.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[96mSERVER[0m] Client connected.
+[[92mLOGIN[0m] New client registered as: undefined
+[[96mSERVER[0m] Client connected.
+[[96mSERVER[0m] Client disconnected.
+[[92mLOGIN[0m] New client registered as: undefined

@@ -1,0 +1,53 @@
+
+{
+	"scene": {
+		"class": "OE.Scene",
+		"objects": [
+			{
+				"className": "OE.Entity",
+				"model": "Diamond",
+				"material": "Diamond",
+				"transform": {
+					"pos": [0.0, 100.0, 0.0],
+					"rot": [0, 0, 0, 1],
+					"scale": [1, 1, 1]}
+			},{
+				"className": "OE.Entity",
+				"model": "Bunny_low",
+				"material": "Chocolate",
+				"transform": {
+					"pos": [0.0, 55.0, 0.0],
+					"rot": [0, 0, 0, 1],
+					"scale": [1, 1, 1]}
+			},{
+				"className": "OE.Sphere",
+				"radius": 3.0,
+				"segments": 64,
+				"material": "Car Paint",
+				"mtlParams": {
+					"uniforms": {
+						"diffuse": [0, 1, 0]
+					}
+				},
+				"transform": {
+					"pos": [0.0, 75.0, -5.0],
+					"rot": [0, 0, 0, 1],
+					"scale": [1, 1, 1]}
+			},{
+				"className": "OE.Sphere",
+				"radius": 3.0,
+				"segments": 64,
+				"material": "Car Paint",
+				"mtlParams": {
+					"uniforms": {
+						"diffuse": [1, 0, 0]
+					}
+				},
+				"transform": {
+					"pos": [0.0, 75.0, 5.0],
+					"rot": [0, 0, 0, 1],
+					"scale": [1, 1, 1]}
+			}
+		]
+	}
+}

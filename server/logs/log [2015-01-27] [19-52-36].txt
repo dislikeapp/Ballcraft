@@ -1,0 +1,3 @@
+   [36minfo  -[39m socket.io started
+Exception: Error: ENOENT, open 'D:\AppServ\www\main\projects\OmniEngine-JS\demos\database\database.json'
+Stack: Error: ENOENT, open 'D:\AppServ\www\main\projects\OmniEngine-JS\demos\database\database.json'
