@@ -38,25 +38,18 @@ function loadFinish() {
 
 function declareResources(callback) {
 	loadStart();
-	loadStatus("0 of 5");
+	loadStatus("0");
 	var count = 0;
 	var onDeclared = function() {
 		count++;
-		loadStatus(count + " of 5");
+		loadStatus(count);
 		if (count == 1) {
 			loadFinish();
 			callback();
 		}
 	};
 	
-	/* Uncomment this to run locally 
-	OE.ResourceManager.declareLibrary('data/Library.json', onDeclared);
-	*/
-	OE.TextureManager.declareAll("data.php?path=data/Textures", onDeclared);
-	OE.ShaderManager.declareAll("data.php?path=data/Shaders", onDeclared);
-	OE.MaterialManager.declareAll("data.php?path=data/Materials", onDeclared);
-	OE.ModelManager.declareAll("data.php?path=data/Models", onDeclared);
-	OE.ScriptManager.declareAll("data.php?path=data/Scripts", onDeclared);
+	OE.ResourceManager.declareLibrary("data/Library.json", onDeclared);
 }
 
 function preloadResources(type, callback) {

@@ -8,7 +8,7 @@
 	<script src="libs/md5.js"></script>
 	<script src="config.js"></script>
 	
-	<script src="OmniEngine.min.js"></script>
+	<script src="../OmniEngine/OmniEngine.min.js"></script>
 	<script src="game/App.js"></script>
 	<script src="game/GameState.js"></script>
 	<script src="game/LoginState.js"></script>
@@ -20,27 +20,25 @@
 	<script src="UI/MenuBar.js"></script>
 	<script src="main.js"></script>
 	<script>
-	var paths = {
-		"socket.io" : "http://"+gConfig.serverHost+":"+gConfig.serverPort+"/socket.io/socket.io.js"
-	};
-	
 	require.config({
 		urlArgs: "bust=" + (new Date()).getTime(),
-		paths: paths
+		paths: {
+			"socket.io" : "http://"+Config.GameServer.host+":"+Config.GameServer.port+"/socket.io/socket.io.js"
+		}
 	});
 	</script>
 </head>
 <body>
-	<span class="appFrame" id="appFrame">
-		<span class="appOverlay nodisplay" id="loadingOverlay">
-			<span class="frame1" style="margin: 24px;">
+	<div class="appFrame" id="appFrame">
+		<div class="appOverlay nodisplay" id="loadingOverlay">
+			<div class="frame1" style="margin: 24px;">
 				Loading...<br />
 				Status:<span name="status"></span>
-			</span>
-		</span>
-		<span class="appOverlay nodisplay" id="loginOverlay">
+			</div>
+		</div>
+		<div class="appOverlay nodisplay" id="loginOverlay">
 			<div class="table fullsize"><div class="tcell center middle">
-				<span class="frame1">
+				<div class="frame1">
 					<table><tr>
 						<th colspan="2">Login</th>
 					</tr><tr>
@@ -53,13 +51,13 @@
 						<td><input type="button" onclick="postLogin();" value="Login" /></td>
 						<td style="text-align: right;"><a href="javascript:gotoRegister();">Sign Up</a></td>
 					</tr></table>
-				</span>
-				<span class="authMsg" id="loginMsg"></span>
+				</div>
+				<div class="authMsg" id="loginMsg"></div>
 			</div></div>
-		</span>
-		<span class="appOverlay nodisplay" id="registerOverlay">
+		</div>
+		<div class="appOverlay nodisplay" id="registerOverlay">
 			<div class="table fullsize"><div class="tcell center middle">
-				<span class="frame1">
+				<div class="frame1">
 					<table><tr>
 						<th colspan="2">Sign Up</th>
 					</tr><tr>
@@ -78,23 +76,26 @@
 						<td><input type="button" onclick="postRegister();" value="Register" /></td>
 						<td style="text-align: right;"><a href="javascript:gotoLogin();">Sign In</a></td>
 					</tr></table>
-				</span>
-				<span class="authMsg" id="registerMsg"></span>
+				</div>
+				<div class="authMsg" id="registerMsg"></div>
 			</div></div>
-		</span>
-		<span class="appOverlay nodisplay" id="ingameOverlay">
-			<span class="frame1 absolute" style="top: 12px; left: 12px;">
+		</div>
+		<div class="appOverlay nodisplay" id="ingameOverlay">
+			<div class="frame1 absolute" style="top: 12px; left: 12px;">
 				<div>World position: <span name="worldPos"></span></div>
 				<div>Sub-position: <span name="localPos"></span></div>
-			</span>
-			<span class="frame1 absolute" style="bottom: 12px; left: 12px; width: 360px; height: 180px;">
+			</div>
+			<div class="frame1 absolute" style="bottom: 12px; left: 12px; width: 360px; height: 180px;">
 				<table class="fullsize">
 					<tr height="99%"><td><div class="messageBox coolScroll" id="messageOutput"></div></td><tr>
 					<tr height="1%"><td><div><input id="chatMessageInput" type="text" style="width: 100%;" /></div></td><tr>
 				</table>
-			</span>
-		</span>
-	</span>
+			</div>
+			<div class="frame1 absolute" style="bottom: 0px; right: 0px; width: 360px; height: 100%;">
+				Right Panel
+			</div>
+		</div>
+	</div>
 	
 </body>
 </html>

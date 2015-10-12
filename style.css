@@ -1,5 +1,5 @@
 
-html {
+html, body {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -7,33 +7,21 @@ html {
 	overflow: hidden;
 }
 body {
-	display: block;
 	background: #1F1F1F;
 	color: #DFDFDF;
 	font-family: Trebuchet MS;
 	font-size: 14px;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
 }
 html * {
 	box-sizing: border-box;
 }
-span {
-	display: inline-block;
-	margin: 0px;
-	padding: 0px;
-}
+
 td {
 	vertical-align: top;
 }
 a:hover {
 	cursor: pointer;
 }
-
-
 iframe {
 	background: #EFEFEF;
 	overflow: auto;
@@ -176,11 +164,12 @@ table.layout > tbody > tr > th {
 
 
 .frame1 {
+	display: inline-block;
 	border: solid 2px #3F3F3F;
 	border-radius: 6px;
 	background: rgba(15, 15, 15, 0.75);
 	padding: 4px;
-	margin: 4px;
+	margin: 0px;
 }
 .frame1 input {
 	border: solid 1px #9F9F9F;
@@ -202,6 +191,30 @@ table.layout > tbody > tr > th {
 .frame1 a:hover {
 	color: #EFEFEF;
 }
+
+
+
+.frame2 {
+	border: solid 0px #3F3F3F;
+	background-color: #3F3F3F;
+	padding: 4px;
+	margin: 0px;
+}
+.frame2 input {
+	border: solid 1px #9F9F9F;
+	border-radius: 4px;
+	background: #3F3F3F;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 12px;
+}
+.frame2 a {
+	color: #CF1F1F;
+}
+.frame2 a:hover {
+	color: #EFEFEF;
+}
+
 
 
 .authMsg {

@@ -16,6 +16,7 @@ Actor.prototype = {
 	run: true,
 	walkAccel: 0.15,
 	flyAccel: 0.3,
+	flyMode: false,
 	jumpVelocity: 1.0,
 	gravity: 0.1,
 	groundFriction: 0.75,
@@ -34,6 +35,9 @@ Actor.prototype = {
 		}
 		if (event == 0 && code == 6) {
 			this.jump();
+		}
+		if (event == 0 && code == 7) {
+			this.flyMode = !this.flyMode;
 		}
 	},
 	applyForce: function(accel) {
@@ -56,22 +60,26 @@ Actor.prototype = {
 		var a = this.a;
 		a.setf(0.0, 0.0, 0.0);
 		var m = false;
-		if (kd[0])			{m = true; a.x -= 1.0;}
-		if (kd[1])			{m = true; a.x += 1.0;}
-		if (kd[2] && kd[7])	{m = true; a.y -= 1.0;}
-		if (kd[3] && kd[7])	{m = true; a.y += 1.0;}
-		if (kd[4])			{m = true; a.z -= 1.0;}
-		if (kd[5])			{m = true; a.z += 1.0;}
+		if (kd[0])	{m = true; a.x -= 1.0;}
+		if (kd[1])	{m = true; a.x += 1.0;}
+		if (kd[2])	{m = true; a.y -= 1.0;}
+		if (kd[3])	{m = true; a.y += 1.0;}
+		if (kd[4])	{m = true; a.z -= 1.0;}
+		if (kd[5])	{m = true; a.z += 1.0;}
 		if (m) {
-			if (kd[7] || this.grounded) {
+			if (this.flyMode || this.grounded) {
 				a.normalize();
 				this.getRot().mulvBy(a);
-				a.mulByf(kd[7] ? this.flyAccel : this.walkAccel);
+				if (!this.flyMode) {
+					a.y = 0.0;
+				}
+				a.normalize();
+				a.mulByf(this.flyMode ? this.flyAccel : this.walkAccel);
 				this.applyForce(a);
 			}
 		}
 		
-		if (kd[7]) {
+		if (this.flyMode) {
 			this.velocity.mulByf(this.flyFriction);
 		}
 		else {
