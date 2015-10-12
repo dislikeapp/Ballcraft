@@ -116,54 +116,6 @@ App.prototype = {
 		
 		this.player = this.mScene.setPlayerObject(new Actor());
 		this.mScene.mRoot.addChild(this.mCamera);
-		
-		setTimeout(function() {
-		OE.Utils.loadJSON("../shared-data/scene-0-0.json", function(json) {
-			var ch = json.chunk;
-			var len = ch.size * ch.size;
-			var origin = ch.origin;
-			app.chunkData = new Array(len);
-			for (var i=0; i<len; i++) {
-				app.chunkData[i] = undefined;
-			}
-			for (var i=0; i<ch.data.length; i++) {
-				var data = ch.data[i];
-				var off = data.offset;
-				var region = data.region;
-				var data2 = data.data;
-				var w = region[2];
-				var h = region[3];
-				var x_off = origin[0] + off[0] + region[0];
-				var y_off = origin[1] + off[1] + region[1];
-				for (var x=0; x<w; x++) {
-					for (var y=0; y<h; y++) {
-						var j = w*y+x;
-						
-						var sx = x+x_off;
-						var sy = y+y_off;
-						var k = ch.size*sy+sx;
-						
-						var val = data2[j];
-						app.chunkData[k] = val;
-						
-						var fx = sx/ch.size-0.5;
-						var fy = sy/ch.size-0.5;
-						if (val === 1) {
-							var s = app.mScene.mChunkSize / ch.size;
-							//var off_x = 
-							var obj = app.mScene.addObject(new OE.Box(s,8.0,s));
-							obj.setMaterial("Wall");
-							var pos = obj.getPos();
-							pos.x = fx*app.mScene.mChunkSize;
-							pos.z = fy*app.mScene.mChunkSize;
-							pos.y = app.mScene.getHeight(pos) + 4.0;
-							obj.setPos(pos);
-						}
-					}
-				}
-			}
-		});
-		}.bind(this),1000);
 	},
 	exitScene: function() {
 		this.player.removeChild(this.mCamera);

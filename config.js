@@ -1,11 +1,11 @@
 
 var Config = {
 	GameServer: {
-		host: "127.0.0.1",
-		port: 8080
+		host: "danglingpointers.me",
+		port: 3000
 	},
 	ResourceServer: {
-		host: "127.0.0.1/ball",
+		host: "danglingpointers.me/Ballcraft",
 		port: 80
 	}
 };
