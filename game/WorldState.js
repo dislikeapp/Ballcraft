@@ -13,6 +13,12 @@ WorldState.prototype = {
 		
 		this.updateTimer = setInterval(this.update.bind(this), 100);
 		
+		OE.SoundManager.declare("bgm", "data/Music/Soliloquy_1.mp3");
+		OE.SoundManager.load("bgm", function(sound) {
+			sound.setLoop(true);
+			sound.play();
+		});
+		
 		var chatInput = document.getElementById("chatMessageInput");
 		chatInput.addEventListener("keydown", function(event) {
 			if (event.keyCode == 13) {
@@ -93,8 +99,16 @@ WorldState.prototype = {
 			rot: [rot.x, rot.y, rot.z, rot.w]
 		});
 		
-		var text = getElementsByName(overlay, "localPos")[0];
-		text.innerHTML = "("+pos.x.toFixed(2)+", "+pos.y.toFixed(2)+", "+pos.z.toFixed(2)+")";
+		if (this.displayPosTimer === undefined)
+			this.displayPosTimer = 10;
+		
+		this.displayPosTimer++;
+		
+		if (this.displayPosTimer >= 10) {
+			this.displayPosTimer = 0;
+			var text = getElementsByName(overlay, "localPos")[0];
+			text.innerHTML = "("+pos.x.toFixed(2)+", "+pos.y.toFixed(2)+", "+pos.z.toFixed(2)+")";
+		}
 	},
 	
 	connect: function() {
