@@ -1,11 +1,11 @@
 <?php
 $action = $_GET["action"];
 if ($action == "start") {
-	pclose(popen("start node main.js", "r"));
+	shell_exec("sh run.sh > /dev/null &");
 	echo '<script>document.location = "'.$_SERVER["PHP_SELF"].'";</script>';
 }
 else if ($action == "stop") {
-	shell_exec("start taskkill /f /im node.exe");
+	shell_exec("sh kill.sh");
 	echo '<script>document.location = "'.$_SERVER["PHP_SELF"].'";</script>';
 }
 else if ($action == NULL)
@@ -72,7 +72,7 @@ else if ($action == NULL)
 			}
 			
 			function connect() {
-				socket = io.connect("http://omniserver.no-ip.biz", {port: 8080});
+				socket = io.connect("http://danglingpointers.me", {port: 3000});
 				
 				var updateServerInfo = function() {
 					var serverInfo = document.getElementById("serverInfo");
@@ -142,7 +142,7 @@ else if ($action == NULL)
 					}, 5000);
 					
 					var script = document.createElement("script");
-					script.setAttribute("src", "http://omniserver.no-ip.biz:8080/socket.io/socket.io.js");
+					script.setAttribute("src", "http://danglingpointers.me:3000/socket.io/socket.io.js");
 					document.head.appendChild(script);
 					var finished = false;
 					

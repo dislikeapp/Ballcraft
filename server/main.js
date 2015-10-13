@@ -37,7 +37,7 @@ include("../../OmniEngine/src/Math/Movable.js");*/
 // Server systems (These are allowed to use global variables)
 eval(readFile("Utils.js")); Utils.initLogger();
 
-var io = require("socket.io").listen(8080);
+var io = require("socket.io").listen(3000);
 io.set("log level", 1);
 
 // Server systems (These are allowed to use global variables)
