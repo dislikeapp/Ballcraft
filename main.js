@@ -1,15 +1,4 @@
 
-function saveDebug() {
-	var dbg = OE.getActiveContext().dbg;
-	if (dbg) {
-		var name = "log.html";
-		var text = encodeURIComponent(dbg.toHtml());
-		OE.Utils.ajaxRequest("save.php", "path=debug/logs/"+name+"&text="+text, function(response) {
-			if (response != "") alert(response);
-		});
-	}
-}
-
 function loadStart() {
 	var overlay = document.getElementById("loadingOverlay");
 	if (overlay.mTimer) {

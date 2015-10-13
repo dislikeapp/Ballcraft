@@ -1,4 +1,3 @@
-
 var Config = {
 	GameServer: {
 		host: "danglingpointers.me",
