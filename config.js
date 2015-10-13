@@ -1,5 +1,5 @@
 
 var gConfig = {
-	"serverHost": "localhost",
-	"serverPort": "8080"
+	"serverHost": "segobox.com",
+	"serverPort": "3000"
 };

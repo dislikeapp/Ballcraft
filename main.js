@@ -49,14 +49,9 @@ function declareResources(callback) {
 		}
 	};
 	
-	/* Uncomment this to run locally 
+	// Uncomment this to run locally 
 	OE.ResourceManager.declareLibrary('data/Library.json', onDeclared);
-	*/
-	OE.TextureManager.declareAll("data.php?path=data/Textures", onDeclared);
-	OE.ShaderManager.declareAll("data.php?path=data/Shaders", onDeclared);
-	OE.MaterialManager.declareAll("data.php?path=data/Materials", onDeclared);
-	OE.ModelManager.declareAll("data.php?path=data/Models", onDeclared);
-	OE.ScriptManager.declareAll("data.php?path=data/Scripts", onDeclared);
+	
 }
 
 function preloadResources(type, callback) {
