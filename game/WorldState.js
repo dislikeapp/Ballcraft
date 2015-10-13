@@ -48,7 +48,7 @@ WorldState.prototype = {
 	addClient: function(key, clientData) {
 		if (key != app.clientKey) {
 			if (this.clients[key] === undefined) {
-				this.clients[key] = app.mScene.mRoot.addChild(new Actor(false));
+				this.clients[key] = app.mScene.mRoot.addChild(new Actor(false, clientData.alias));
 				console.log("Client "+key+" added: "+clientData.alias);
 			}
 		}
@@ -104,6 +104,12 @@ WorldState.prototype = {
 		
 		this.displayPosTimer++;
 		
+		if (this.displayPosTimer % 2 == 0) {
+			for (var key in this.clients) {
+				var client = this.clients[key];
+				client.updateNametagPos();
+			}
+		}
 		if (this.displayPosTimer >= 10) {
 			this.displayPosTimer = 0;
 			var text = getElementsByName(overlay, "localPos")[0];

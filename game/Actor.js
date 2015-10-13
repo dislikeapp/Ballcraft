@@ -1,10 +1,16 @@
 
-var Actor = function(isMe) {
+var Actor = function(isMe, name) {
 	OE.Sphere.call(this, 1.0, 16);
 	this.mMaterial = OE.MaterialManager.getLoaded("Car Paint");
 	
 	this.isMe = isMe === undefined ? true : false;
 	this.velocity = new OE.Vector3(0.0);
+	
+	this.name = name;
+	this.nametag = document.createElement("div");
+	this.nametag.setAttribute("class", "nametag");
+	this.nametag.innerHTML = name;
+	document.body.appendChild(this.nametag);
 	
 	this.inputStates = {
 		keyDown: new Array(8)
@@ -25,6 +31,7 @@ Actor.prototype = {
 	velocity: undefined,
 	grounded: false,
 	inputStates: undefined,
+	name: "Client",
 	
 	inputEvent: function(event, code) {
 		switch (event) {
@@ -48,6 +55,33 @@ Actor.prototype = {
 			this.grounded = false;
 			this.velocity.y = this.jumpVelocity;
 		}
+	},
+	
+	wpos: undefined,
+	spos: undefined,
+	vpmat: undefined,
+	updateNametagPos: function() {
+		if (this.wpos === undefined) this.wpos = new Array(4);
+		if (this.spos === undefined) this.spos = new Array(4);
+		if (this.vpmat === undefined) this.vpmat = mat4.create();
+		
+		var wpos = this.mWorldTransform.getPos();
+		var view = app.mCamera.getViewMatrix();
+		var proj = app.mCamera.getProjectionMatrix();
+		this.wpos[0] = wpos.x;
+		this.wpos[1] = wpos.y+1.25;
+		this.wpos[2] = wpos.z;
+		this.wpos[3] = 1.0;
+		mat4.multiplyVec4(view, this.wpos, this.spos);
+		mat4.multiplyVec4(proj, this.spos, this.spos);
+		var w = app.mSurface.mCanvas.offsetWidth;
+		var h = app.mSurface.mCanvas.offsetHeight;
+		var ntx = w * ((this.spos[0] / this.spos[3])*0.5+0.5);
+		var nty = w * ((this.spos[1] / this.spos[3])*0.5+0.5);
+		ntx -= this.nametag.offsetWidth/2;
+		nty -= this.nametag.offsetHeight/2;
+		this.nametag.style.left = ntx+"px";
+		this.nametag.style.bottom = nty+"px";
 	},
 	
 	a: new OE.Vector3(),
@@ -114,6 +148,9 @@ Actor.prototype = {
 		}
 		
 		this.setPos(pos);
+	},
+	onDestroy: function() {
+		document.body.removeChild(this.nametag);
 	}
 };
 OE.Utils.merge(Actor.prototype, OE.Sphere.prototype);

@@ -56,6 +56,7 @@ LoginState.prototype = {
 	
 	postLogin: function(username, password) {
 		var passHash = CryptoJS.MD5(password+username).toString();
+		app.clientAlias = username;
 		app.socket.emit("login", {
 			"username"	: username,
 			"password"	: passHash

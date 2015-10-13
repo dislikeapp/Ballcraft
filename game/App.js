@@ -114,7 +114,7 @@ App.prototype = {
 			this.mScene.mChunks[i].mMaterial = mtl;
 		}
 		
-		this.player = this.mScene.setPlayerObject(new Actor());
+		this.player = this.mScene.setPlayerObject(new Actor(true, this.clientAlias));
 		this.mScene.mRoot.addChild(this.mCamera);
 	},
 	exitScene: function() {

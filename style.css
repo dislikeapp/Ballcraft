@@ -269,3 +269,16 @@ table.layout > tbody > tr > th {
 .messageBox > .chatMessage {
 	color: white;
 }
+
+.nametag {
+	position: absolute;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	border: solid 1px #7F7F7F;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 4px;
+	transition-duration: 0.25s;
+	transition-timing-function: linear;
+	transition-property: left, bottom;
+}
